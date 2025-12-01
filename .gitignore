@@ -1,0 +1,32 @@
+# --- Global ---
+.env
+*.env
+.DS_Store
+__pycache__/
+*.pyc
+
+# --- Backend (Python/FastAPI) ---
+backend/venv/
+backend/.pytest_cache/
+backend/*.sqlite3
+backend/app/__pycache__/
+backend/**/*.pyc
+backend/.mypy_cache/
+
+# Logs
+backend/*.log
+
+# --- Frontend (React + TypeScript) ---
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+frontend/.parcel-cache/
+frontend/.turbo/
+
+# IDE configs
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
